@@ -26,7 +26,6 @@
   margin: 4vw 10vh;
 }
 
-
 .infomation {
   width: 77vw;
   font-size: 1.6rem;
@@ -42,7 +41,7 @@
   color: var(--secondary-color);
 }
 #cvdounlode {
-  margin-left: 20vw;
+  margin-left: 21.2vw;
   margin-top: -10rem;
 }
 #cvdounlode .downlode {
@@ -115,8 +114,11 @@
 
 #icon {
   width: 1.5em;
+  margin-top: -70px;
+  margin-bottom: 100px;
   cursor: pointer;
+  border: 2px solid #ffb400;
+  border-radius: 15px;
+  color: var(--primary-color);
+  background-color: #ffb400;
 }
-
-/*about section */
-
