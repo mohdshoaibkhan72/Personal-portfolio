@@ -29,8 +29,8 @@
 }
 
 .dark-theme {
-  --primary-color: #212121;
-  --secondary-color: #edf2fc;
+  --primary-color: #22191a;
+  --secondary-color: #f1f1f1
 }
 #hoomesection {
   height: 100vh;
@@ -49,6 +49,12 @@
   height: 85vh;
   border-radius: 5rem;
   margin: 4vw 10vh;
+  
+  
+}
+.leftimg img:hover{
+transform: up(-3deg);
+transition: 2s;
 }
 
 .infomation {
@@ -110,7 +116,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
+#cvdounlode .hovr:hover{
+  color: #ffb400;
+}
 .menubar {
   color: var(--primary-color);
   position: fixed;
