@@ -12,20 +12,20 @@
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .cursor2 {
   position: fixed;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background-color: #ffb400;
   border-radius: 50%;
   left: 10px; /* Adjust the left position */
-  top: 10px;  /* Adjust the top position */
+  top: 10px; /* Adjust the top position */
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .15s;
+  transition: 0.15s;
 }
 
 .dark-theme {
@@ -112,29 +112,27 @@
 }
 
 .menubar {
+  color: var(--primary-color);
   position: fixed;
-  width: 10vw;
+  color: #212121;
   margin-top: 100px;
   margin-left: 90vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
-.menubar button {
-  cursor: pointer;
-  width: 34%;
-  height: 7vh;
-  margin-left: -10px;
-  border-radius: 50%;
-  background-color: #ffb400;
-  border-style: none;
-}
-.menubar button i {
-  font-size: 1.6rem;
+.menubar a {
   color: var(--secondary-color);
+  border-radius: 5px;
+  height: 2.2rem;
+  width: 7rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  text-decoration: none;
 }
 
 #icon {
@@ -146,4 +144,11 @@
   border-radius: 15px;
   color: var(--primary-color);
   background-color: #ffb400;
+}
+#about {
+  background-color: #edf2fc;
+ font-size: 100px;
+ display: flex;
+ align-items:center;
+ justify-content: center;
 }
