@@ -49,12 +49,17 @@
   height: 85vh;
   border-radius: 5rem;
   margin: 4vw 10vh;
+
   
   
 }
 .leftimg img:hover{
-transform: up(-3deg);
-transition: 2s;
+transition: 1s ;
+
+transform: scale(1.1);
+
+
+
 }
 
 .infomation {
