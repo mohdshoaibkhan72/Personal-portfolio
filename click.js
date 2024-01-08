@@ -9,12 +9,21 @@ var typed = new Typed("#element", {
 });
 
 //theme switure
+
 var icon = document.getElementById("icon");
+
+// Apply dark theme initially
+document.body.classList.add("dark-theme");
+icon.src = "./dark theme icon/moon.png";
+
 icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
+
+  // Check if dark theme is currently applied
   if (document.body.classList.contains("dark-theme")) {
     icon.src = "./dark theme icon/sun.png";
   } else {
+    // If dark theme is not applied, switch to dark theme
     icon.src = "./dark theme icon/moon.png";
   }
 };
@@ -28,4 +37,5 @@ document.addEventListener("mousemove", (e) => {
   cursor.style.cssText = cursor2.style.cssText =
     "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });
+
 
