@@ -211,6 +211,8 @@ ul {
   margin-left: 23rem;
   margin-top: 1.5rem;
 }
+
+/*education section */
 #education{
   height: auto;
   width: 100vw;
@@ -221,4 +223,18 @@ ul {
   font-size: 2rem;
   padding: 5rem;
   color: #666666;
+}
+.imgclass img{
+  height: 60vh;
+  border-radius: 30px;
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+	
+}
+.imgclass img:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
 }
